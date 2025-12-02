@@ -11,10 +11,8 @@ def main():
       distance = distance if direction == 'R' else distance * -1
       value += distance
 
-      while (value < 0):
-         value += 100
-      while (value > 99):
-         value -= 100
+      truncated_value = value % 100
+      value = truncated_value
 
       if value == 0:
          times_hit_zero += 1
