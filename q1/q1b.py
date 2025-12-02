@@ -27,5 +27,3 @@ def main():
   print(times_hit_zero)
 
 main()
-
-#6434
