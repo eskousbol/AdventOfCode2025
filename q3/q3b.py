@@ -1,6 +1,3 @@
-def get_largest_next_number(start_index, end_index):
-  pass
-
 def main():
   f = open("./q3/q3_input.txt", "r")
 
