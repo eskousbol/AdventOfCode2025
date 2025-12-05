@@ -30,8 +30,6 @@ def main():
 
       sum += 1 if adjacent_items.count('@') < 4 else 0
       
-
-   
   print(sum)
 
 main()
