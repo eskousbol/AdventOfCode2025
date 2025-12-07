@@ -1,12 +1,13 @@
+import time
+
 def main():
   f = open("./q6/q6_input.txt", "r")
+  start_time = time.perf_counter()
 
   problem_matrix = []
   value = 0
   for line in f:
     problem_matrix.append(list(line))
-
-  f.close()
 
   problem_boundaries = []
   for j in range(len(problem_matrix[0])):
@@ -41,6 +42,10 @@ def main():
           problem_output *= sub_value
     value += problem_output
     previous_problem_boundary = problem_boundary
+
+  end_time = time.perf_counter()
+  time_in_microseconds = (end_time - start_time) * 1000000
+  print(f"took {time_in_microseconds:.2f}μs")
   print(value)
 
 main()
