@@ -6,6 +6,8 @@ def main():
   for line in f:
     problem_matrix.append(list(line))
 
+  f.close()
+
   problem_boundaries = []
   for j in range(len(problem_matrix[0])):
     if problem_matrix[0][j] == ' ':

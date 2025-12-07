@@ -31,5 +31,6 @@ def main():
       sum += get_invalid_values_in_range(start, end)
    
   print(sum)
+  f.close()
 
 main()

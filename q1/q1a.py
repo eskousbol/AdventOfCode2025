@@ -18,5 +18,6 @@ def main():
          times_hit_zero += 1
    
    print(times_hit_zero)
+   f.close()
 
 main()

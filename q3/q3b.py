@@ -19,5 +19,6 @@ def main():
     sum += int(final_value)
    
   print(sum)
+  f.close()
 
 main()

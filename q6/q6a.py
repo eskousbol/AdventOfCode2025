@@ -9,6 +9,8 @@ def main():
     line_values = re.findall("(\\d+|\\+|\\*)", line)
     problem_matrix.append(line_values)
 
+  f.close()
+  
   for j in range(len(problem_matrix[0])):
     operation = problem_matrix[-1][j]
 

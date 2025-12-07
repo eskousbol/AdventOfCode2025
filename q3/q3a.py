@@ -14,5 +14,6 @@ def main():
     sum += int(max_start_item + max_end_item)
    
   print(sum)
+  f.close()
 
 main()

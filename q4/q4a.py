@@ -5,6 +5,7 @@ def main():
   grid = []
   for line in f:
     grid.append(list(line.strip()))
+  f.close()
 
   for i in range(0, len(grid)):
     row = grid[i]

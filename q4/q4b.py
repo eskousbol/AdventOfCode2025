@@ -42,6 +42,8 @@ def main():
   for line in f:
     grid.append(list(line.strip()))
 
+  f.close()
+  
   total_rolls_removed = 0
   done = False
   while not done:

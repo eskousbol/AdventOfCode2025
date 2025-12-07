@@ -14,6 +14,7 @@ def main():
     else:
       values.append(int(line))
 
+  f.close()
   for value in values:
     for [lower_limit, upper_limit] in num_ranges:
       if value >= int(lower_limit) and value <= int(upper_limit):

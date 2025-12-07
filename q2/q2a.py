@@ -13,5 +13,6 @@ def main():
           sum += i
    
   print(sum)
+  f.close()
 
 main()

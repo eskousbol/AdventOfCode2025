@@ -30,6 +30,8 @@ def main():
       values = line.split('-')
       num_ranges.append([int(values[0]), int(values[1])])
 
+  f.close()
+  
   num_ranges.sort(key=lambda num_range: num_range[0])
   num_ranges = merge_ranges(num_ranges)
       

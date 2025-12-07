@@ -25,5 +25,6 @@ def main():
 
   
   print(times_hit_zero)
+  f.close()
 
 main()
