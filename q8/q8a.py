@@ -48,7 +48,6 @@ def main():
     smallest_distance = distances[0]
     distances.remove(smallest_distance)
     [box1, box2] = distance_lookup[smallest_distance]
-    a = 1
     for circuit in circuits:
       if box1 in circuit and box2 in circuit:
         break
